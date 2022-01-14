@@ -193,6 +193,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+  margin-bottom: 50px;
 }
 .contact img {
   width: 100%;
@@ -210,4 +211,29 @@ nav {
   font-family: inherit;
   outline: 0;
   border: 1px solid #ff008e;
+}
+
+/* Footer */
+footer {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  padding: 2%;
+  background-color: #0e0d0d;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+footer p,
+small,
+h4 {
+  align-items: center;
+  color: white;
+}
+.card-icon {
+  background-color: #aaaaaa;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  color: #fff;
 }
