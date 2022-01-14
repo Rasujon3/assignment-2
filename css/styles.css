@@ -111,10 +111,10 @@ nav {
 ------------------------- */
 .section-title {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .section-title h2 {
   font-size: 40px;
@@ -180,12 +180,17 @@ nav {
     See More Button 
 -------------------------*/
 .see-more-button {
+  background-color: white;
   display: flex;
   align-items: center;
+  float: right;
   outline: 0;
   border: 0;
-  padding: 0;
+  padding: 30px;
   color: #ff008e;
+}
+.see-more-button h5 {
+  font-size: 16px;
 }
 
 /* contact  */
